@@ -1,56 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<style>
-.A{
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #head{
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
+
+
+    }
+   .div1{
+    justify-content:space-evenly ;
     border: 2px solid;
-    width: 730px;
-    height: 600px;
-}
-.div1{
-    border: 2px solid;
-    width: 715px;
-    height: 130px;
-    margin: 5px;
-    gap: 10px;
+ background-color: rgb(185, 228, 228);
+    padding: 10px;
     display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+   }
+   .div2{
+   padding: 10PX;
+  display: flex;
+    border: 2px solid;
+    flex-wrap: wrap;
+background-color: burlywood;
+ gap: 10px;
+ justify-content: space-between;
+   }
+   .div1 div{
+    border: 2px solid;
+    height: 160px;
+    width: 200px;
+    border-radius: 10px;
+  
+   }
+   .div2 div{
+    border: 2px solid;
+    height: 300px;
+    width: 250px;
+    
+   }
+   .div3{
+    display: flex;
+   border: 2px solid;
+ justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: darksalmon;
+   }
+   .div3 div{
+    border: 2px solid;
+    height: 100px;
+    width: 130px;
+    
+   }
+   .b1,.b2,.d3{
+    height: 160px;
+    width: 200px;
    
-}
-.b11,.b12,.b13,.b14{
-   
-    flex-direction: column;
-    margin: 15px;
-}
+   }
 
-
-
-
-
-</style>
-
+  </style>
 </head>
 <body>
-    <div class="A">
+  <div id="head">
 <div class="div1">
-
-    <div class="b11"> <img src="./hyd.jpg "height="100px" width="120px" alt=""></div>
-    <div class="b12"><img src="./bemgaliru.avif" height="100px" alt=""></div>
-    <div class="b13"><img src="./mumbai.jpg"  height="100" width=""></div>
-    <div class="b14"><img src="./" alt=""></div>
+  <div class="11">
+   <img class="b1" src="./hyd.jpg "  alt="">
+  </div>
+  <div class="12">
+    <img class="b2" src="./chennai.jpg" alt="">
+  </div>
+  <div class="13">
+    <img class="d3" src="./bemgaliru.avif" alt=""> 
+  </div>
+</div>
+<div class="div2">
+   <div class="21">
+    <img  src="./hyd places.jpg" height="300px"  width="250px" alt="">
+   </div>
+   <div class="22">
+    <img src="./tn historical places.jpg" height="300px" width="250px" alt="">
+   </div>
+   <div class="23"> 
+    <img src="./karanataka historical places.jpg" width="250px" height="300px" alt="">
+   </div>
+</div>
+<div class="div3">
+ <div  class="31"> <img src="./Telangana State emblem.jpg" height="100px" width="130px" alt=""></div>
+ <div class="32"> <img src="./TamilNadu_Logo.svg.png" height="100px" width="130px" alt=""></div>
+ <div class="33"> <img src="./ka emblem.png" height="100px" width="130px" alt=""></div>
 </div>
 
-<div>
-    <div></div>
-    <div></div>
-    <div></div>
-</div>
-
-<div></div>
-<div></div>
-<div></div>
 
 
 
@@ -60,6 +106,11 @@
 
 
 
-    </div>
+
+
+
+
+
+  </div>
 </body>
 </html>
